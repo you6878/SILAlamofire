@@ -1,0 +1,6 @@
+framework module Pods_HowlPapagoTests {
+  umbrella header "Pods-HowlPapagoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

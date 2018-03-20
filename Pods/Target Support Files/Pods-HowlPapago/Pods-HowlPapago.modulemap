@@ -1,0 +1,6 @@
+framework module Pods_HowlPapago {
+  umbrella header "Pods-HowlPapago-umbrella.h"
+
+  export *
+  module * { export * }
+}

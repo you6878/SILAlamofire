@@ -14,6 +14,10 @@
 		020919A5206141A6009A2BAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 020919A3206141A6009A2BAC /* LaunchScreen.storyboard */; };
 		020919B0206141A6009A2BAC /* HowlPapagoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020919AF206141A6009A2BAC /* HowlPapagoTests.swift */; };
 		020919BB206141A6009A2BAC /* HowlPapagoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020919BA206141A6009A2BAC /* HowlPapagoUITests.swift */; };
+		020919C920614734009A2BAC /* PapagoDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020919C820614734009A2BAC /* PapagoDTO.swift */; };
+		37C32ACAAD6D35A59EA14708 /* Pods_HowlPapagoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 012C4FFD3C67582EE09B8275 /* Pods_HowlPapagoUITests.framework */; };
+		886D42FD13F570B8CFD94A6E /* Pods_HowlPapagoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9AAD3040A17109EF25F1DFB /* Pods_HowlPapagoTests.framework */; };
+		C1EB4E1A84CC2124DD0E84FC /* Pods_HowlPapago.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9D40DBDB7ABF3115E03601 /* Pods_HowlPapago.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		012C4FFD3C67582EE09B8275 /* Pods_HowlPapagoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HowlPapagoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		02091997206141A6009A2BAC /* HowlPapago.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HowlPapago.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0209199A206141A6009A2BAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0209199C206141A6009A2BAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,15 @@
 		020919B6206141A6009A2BAC /* HowlPapagoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HowlPapagoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		020919BA206141A6009A2BAC /* HowlPapagoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowlPapagoUITests.swift; sourceTree = "<group>"; };
 		020919BC206141A6009A2BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		020919C820614734009A2BAC /* PapagoDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PapagoDTO.swift; sourceTree = "<group>"; };
+		19CE09C1A39F08063DE66F17 /* Pods-HowlPapago.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlPapago.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HowlPapago/Pods-HowlPapago.debug.xcconfig"; sourceTree = "<group>"; };
+		27833BC4248244F075F2C81E /* Pods-HowlPapagoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlPapagoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HowlPapagoTests/Pods-HowlPapagoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4085EB0122B39320FEEE014C /* Pods-HowlPapago.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlPapago.release.xcconfig"; path = "Pods/Target Support Files/Pods-HowlPapago/Pods-HowlPapago.release.xcconfig"; sourceTree = "<group>"; };
+		540820D3A768A253FDCEAE54 /* Pods-HowlPapagoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlPapagoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HowlPapagoTests/Pods-HowlPapagoTests.release.xcconfig"; sourceTree = "<group>"; };
+		BA9D40DBDB7ABF3115E03601 /* Pods_HowlPapago.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HowlPapago.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8C9758081F8BD842526936 /* Pods-HowlPapagoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlPapagoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HowlPapagoUITests/Pods-HowlPapagoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D04D762366DD32DF258B2EB6 /* Pods-HowlPapagoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlPapagoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HowlPapagoUITests/Pods-HowlPapagoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E9AAD3040A17109EF25F1DFB /* Pods_HowlPapagoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HowlPapagoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1EB4E1A84CC2124DD0E84FC /* Pods_HowlPapago.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				886D42FD13F570B8CFD94A6E /* Pods_HowlPapagoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37C32ACAAD6D35A59EA14708 /* Pods_HowlPapagoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,8 @@
 				020919AE206141A6009A2BAC /* HowlPapagoTests */,
 				020919B9206141A6009A2BAC /* HowlPapagoUITests */,
 				02091998206141A6009A2BAC /* Products */,
+				CE2E3524A033C49A4C534ACB /* Pods */,
+				50FCBBC8F1C5245ECDF4A6D1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +122,7 @@
 				020919A1206141A6009A2BAC /* Assets.xcassets */,
 				020919A3206141A6009A2BAC /* LaunchScreen.storyboard */,
 				020919A6206141A6009A2BAC /* Info.plist */,
+				020919C820614734009A2BAC /* PapagoDTO.swift */,
 			);
 			path = HowlPapago;
 			sourceTree = "<group>";
@@ -125,6 +145,29 @@
 			path = HowlPapagoUITests;
 			sourceTree = "<group>";
 		};
+		50FCBBC8F1C5245ECDF4A6D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA9D40DBDB7ABF3115E03601 /* Pods_HowlPapago.framework */,
+				E9AAD3040A17109EF25F1DFB /* Pods_HowlPapagoTests.framework */,
+				012C4FFD3C67582EE09B8275 /* Pods_HowlPapagoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE2E3524A033C49A4C534ACB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19CE09C1A39F08063DE66F17 /* Pods-HowlPapago.debug.xcconfig */,
+				4085EB0122B39320FEEE014C /* Pods-HowlPapago.release.xcconfig */,
+				27833BC4248244F075F2C81E /* Pods-HowlPapagoTests.debug.xcconfig */,
+				540820D3A768A253FDCEAE54 /* Pods-HowlPapagoTests.release.xcconfig */,
+				D04D762366DD32DF258B2EB6 /* Pods-HowlPapagoUITests.debug.xcconfig */,
+				CE8C9758081F8BD842526936 /* Pods-HowlPapagoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 020919BF206141A6009A2BAC /* Build configuration list for PBXNativeTarget "HowlPapago" */;
 			buildPhases = (
+				BD663662316D8C5E7AC1A340 /* [CP] Check Pods Manifest.lock */,
 				02091993206141A6009A2BAC /* Sources */,
 				02091994206141A6009A2BAC /* Frameworks */,
 				02091995206141A6009A2BAC /* Resources */,
+				DDE7A600BA91A014D449F789 /* [CP] Embed Pods Frameworks */,
+				CEBE4C8CA4F14F06688ABC9B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 020919C2206141A6009A2BAC /* Build configuration list for PBXNativeTarget "HowlPapagoTests" */;
 			buildPhases = (
+				A407D7012D1DA19B3B08D98C /* [CP] Check Pods Manifest.lock */,
 				020919A7206141A6009A2BAC /* Sources */,
 				020919A8206141A6009A2BAC /* Frameworks */,
 				020919A9206141A6009A2BAC /* Resources */,
+				94E09A7016194600918724AC /* [CP] Embed Pods Frameworks */,
+				4616EA9240571D0A568245A4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 020919C5206141A6009A2BAC /* Build configuration list for PBXNativeTarget "HowlPapagoUITests" */;
 			buildPhases = (
+				57B1F0D952636438E5B89C29 /* [CP] Check Pods Manifest.lock */,
 				020919B2206141A6009A2BAC /* Sources */,
 				020919B3206141A6009A2BAC /* Frameworks */,
 				020919B4206141A6009A2BAC /* Resources */,
+				586F6576F83618D7F9406327 /* [CP] Embed Pods Frameworks */,
+				5AB851227B76E3E795905F44 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,11 +306,166 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4616EA9240571D0A568245A4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HowlPapagoTests/Pods-HowlPapagoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57B1F0D952636438E5B89C29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HowlPapagoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		586F6576F83618D7F9406327 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HowlPapagoUITests/Pods-HowlPapagoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AB851227B76E3E795905F44 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HowlPapagoUITests/Pods-HowlPapagoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94E09A7016194600918724AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HowlPapagoTests/Pods-HowlPapagoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A407D7012D1DA19B3B08D98C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HowlPapagoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD663662316D8C5E7AC1A340 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HowlPapago-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEBE4C8CA4F14F06688ABC9B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HowlPapago/Pods-HowlPapago-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDE7A600BA91A014D449F789 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HowlPapago/Pods-HowlPapago-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HowlPapago/Pods-HowlPapago-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		02091993206141A6009A2BAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				020919C920614734009A2BAC /* PapagoDTO.swift in Sources */,
 				0209199D206141A6009A2BAC /* ViewController.swift in Sources */,
 				0209199B206141A6009A2BAC /* AppDelegate.swift in Sources */,
 			);
@@ -424,6 +631,7 @@
 		};
 		020919C0206141A6009A2BAC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19CE09C1A39F08063DE66F17 /* Pods-HowlPapago.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,6 +646,7 @@
 		};
 		020919C1206141A6009A2BAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4085EB0122B39320FEEE014C /* Pods-HowlPapago.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +661,7 @@
 		};
 		020919C3206141A6009A2BAC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27833BC4248244F075F2C81E /* Pods-HowlPapagoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +678,7 @@
 		};
 		020919C4206141A6009A2BAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 540820D3A768A253FDCEAE54 /* Pods-HowlPapagoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +695,7 @@
 		};
 		020919C6206141A6009A2BAC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D04D762366DD32DF258B2EB6 /* Pods-HowlPapagoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +711,7 @@
 		};
 		020919C7206141A6009A2BAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE8C9758081F8BD842526936 /* Pods-HowlPapagoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
